@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="lienhe.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <h1 id="lienhe">Liên hệ</h1>
+    <hr class="red-line">
+    <div class="contact-info">
+        <div class="left-column">
+            <div>
+                <h2>Thông tin</h2>
+            </div>
+            <div class="info-item">
+                <i class='bx bxs-map'></i>
+                <span>Kp 6, P.Linh Trung, TP Thủ Đức, TP Hồ Chí Minh</span>
+            </div>
+            <div class="info-item">
+                <i class='bx bx-envelope'></i>
+                <span>info@uit.edu.vn</span>
+            </div>
+            <div class="info-item">
+                <i class='bx bxs-phone'></i>
+                <span>+84 28 372 52002</span>
+            </div>
+        </div>
+        <div class="right-column">
+            <div>
+                <h2 id="lienlac">Hãy liên lạc với chúng tôi bất cứ khi nào!!!</h2>
+            </div>
+            <form id="contact-form">
+                <input type="text" placeholder="Họ và tên" name="fullname" required>
+                
+                <input type="email" placeholder="Địa chỉ email" name="email" required>
+                
+                <input type="text" placeholder="Tiêu đề bài viết" name="title" required>
+                
+                <textarea placeholder="Nội dung cần gửi" name="message" rows="10" required></textarea>
+                
+                <button type="submit">Gửi tin nhắn <i class='bx bx-check-circle'></i></button>
+            </form>
+        </div>
+    </div>
+    <script src="bai3.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#lienhe {
+    text-transform: uppercase;
+    color: blue;
+}
+
+.red-line {
+    border: 0;
+    border-top: 3px solid red;
+}
+
+.contact-info {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-column {
+    flex: 1;
+}
+
+.right-column {
+    flex: 1.5;
+}
+
+#lienlac{
+    color: rgb(186, 60, 186);
+}
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
+.info-item i {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
